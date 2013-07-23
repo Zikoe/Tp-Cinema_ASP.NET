@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Piecemaker>
+  <Contents>
+    <Image Source="images/sliding_photos/photo_01.jpg" Title="Photo Premier">
+		<Text>&lt;h1&gt;Welcome to Cinema &lt;/h1&gt;&lt;p&gt;Guide cinéma du Grand Montréal. Movie Guide for the Greater Montreal. Horaire du cinéma Cineplex Odeon Forum Cinemas, Montréal.Le cinéma est un art du spectacle. En français, on le désigne couramment comme le septième art », d'après l'expression du critique Ricciotto Canudo dans les
+        Détestable moi 2 Galaxy Cinemas Victoriaville Louis Cyr : L`homme le plus fort du monde Galaxy Cinemas.Horaire du cinéma Cinéma Banque Scotia (Paramount), Montréal.Le cinéma est un art du spectacle. En français, on le désigne couramment comme le « septième art », d'après l'expression du critique Ricciotto Canudo.
+        </Text>
+		<Hyperlink URL="#" Target="_blank" />
+	</Image>		
+    <Image Source="images/sliding_photos/photo_02.jpg" Title="Photo Deuxiem">
+        <Text>&lt;h1&gt;Welcome to Cinema &lt;/h1&gt;&lt;p&gt;Guide cinéma du Grand Montréal. Movie Guide for the Greater Montreal. Horaire du cinéma Cineplex Odeon Forum Cinemas, Montréal.Le cinéma est un art du spectacle. En français, on le désigne couramment comme le septième art », d'après l'expression du critique Ricciotto Canudo dans les
+            Détestable moi 2 Galaxy Cinemas Victoriaville Louis Cyr : L`homme le plus fort du monde Galaxy Cinemas.Horaire du cinéma Cinéma Banque Scotia (Paramount), Montréal.Le cinéma est un art du spectacle. En français, on le désigne couramment comme le « septième art », d'après l'expression du critique Ricciotto Canudo.
+        </Text>
+      <Hyperlink URL="#" Target="_blank" />
+    </Image>
+	<Image Source="images/sliding_photos/photo_03.jpg" Title="Photo Troixiem">
+        <Text>&lt;h1&gt;Welcome to Cinema &lt;/h1&gt;&lt;p&gt;Guide cinéma du Grand Montréal. Movie Guide for the Greater Montreal. Horaire du cinéma Cineplex Odeon Forum Cinemas, Montréal.Le cinéma est un art du spectacle. En français, on le désigne couramment comme le septième art », d'après l'expression du critique Ricciotto Canudo dans les
+            Détestable moi 2 Galaxy Cinemas Victoriaville Louis Cyr : L`homme le plus fort du monde Galaxy Cinemas.Horaire du cinéma Cinéma Banque Scotia (Paramount), Montréal.Le cinéma est un art du spectacle. En français, on le désigne couramment comme le « septième art », d'après l'expression du critique Ricciotto Canudo.
+        </Text>
+        <Hyperlink URL="#" Target="_blank" />
+    </Image>
+	<Image Source="images/sliding_photos/photo_04.jpg" Title="Photo Quathiem">
+        <Text>&lt;h1&gt;Welcome to Cinema &lt;/h1&gt;&lt;p&gt;Guide cinéma du Grand Montréal. Movie Guide for the Greater Montreal. Horaire du cinéma Cineplex Odeon Forum Cinemas, Montréal.Le cinéma est un art du spectacle. En français, on le désigne couramment comme le septième art », d'après l'expression du critique Ricciotto Canudo dans les
+            Détestable moi 2 Galaxy Cinemas Victoriaville Louis Cyr : L`homme le plus fort du monde Galaxy Cinemas.Horaire du cinéma Cinéma Banque Scotia (Paramount), Montréal.Le cinéma est un art du spectacle. En français, on le désigne couramment comme le « septième art », d'après l'expression du critique Ricciotto Canudo.
+        </Text>
+        <Hyperlink URL="#" Target="_blank" />
+    </Image>
+  </Contents>
+  <Settings ImageWidth="900" ImageHeight="360" LoaderColor="0x333333" InnerSideColor="0x161616" SideShadowAlpha="0.8" DropShadowAlpha="0.8" DropShadowDistance="16" DropShadowScale="0.95" DropShadowBlurX="20" DropShadowBlurY="4" MenuDistanceX="20" MenuDistanceY="28" MenuColor1="0x777777" MenuColor2="0x333333" MenuColor3="0xAAAAAA" ControlSize="100" ControlDistance="20" ControlColor1="0x222222" ControlColor2="0xFFFFFF" ControlAlpha="0.8" ControlAlphaOver="0.95" ControlsX="450" ControlsY="280" ControlsAlign="center" TooltipHeight="30" TooltipColor="0x111111" TooltipTextY="5" TooltipTextStyle="P-Italic" TooltipTextColor="0xFFFFFF" TooltipMarginLeft="5" TooltipMarginRight="7" TooltipTextSharpness="50" TooltipTextThickness="-100" InfoWidth="400" InfoBackground="0xFFFFFF" InfoBackgroundAlpha="0.95" InfoMargin="15" InfoSharpness="0" InfoThickness="0" Autoplay="4" FieldOfView="45"></Settings>
+  <Transitions>
+    <Transition Pieces="6" Time="1.2" Transition="easeInOutQuart" Delay="0.09" DepthOffset="450" CubeDistance="40"></Transition>
+    <Transition Pieces="8" Time="1.4" Transition="easeInOutBack" Delay="0.08" DepthOffset="550" CubeDistance="30"></Transition>
+    <Transition Pieces="5" Time="1.2" Transition="easeInOutQuart" Delay="0.11" DepthOffset="500" CubeDistance="40"></Transition>
+    <Transition Pieces="7" Time="1.4" Transition="easeInOutBack" Delay="0.12" DepthOffset="650" CubeDistance="35"></Transition>
+  </Transitions>
+</Piecemaker>
