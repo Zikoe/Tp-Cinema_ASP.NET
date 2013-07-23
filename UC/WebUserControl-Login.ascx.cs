@@ -5,11 +5,11 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class index : System.Web.UI.Page
+public partial class UC_WebUserControl_Login : System.Web.UI.UserControl
 {
-   
+
     protected void Page_Load(object sender, EventArgs e)
     {
-      
+
     }
 }

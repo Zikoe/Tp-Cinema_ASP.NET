@@ -141,12 +141,12 @@ em { color: #CCC; }
 /* end of gallery */
 
 
-#contact_form { width: 440px;  padding: 0; }
-#contact_form form { margin: 0px; padding: 0px; }
-#contact_form form .input_field { color: #fff; width: 350px; padding: 5px; background: #181818; border: 1px solid #444 }
-#contact_form form label { display: block; color: #ccc; width: 100px; margin-right: 10px; font-size: 14px; }
+#contact_form { width: 462px;  padding:30px 20px 50px; border: 2px solid #ffffa2; }
+#contact_form h3{ padding-bottom:10px; margin-bottom: 40px; border-bottom:2px dashed  #ffffa2;  }
+#contact_form .input_field { color: #fff; width: 350px; padding: 5px; background: #181818; border: 1px solid #444 ;}
+#contact_form label { display: block; color: #ccc; width: 100px; margin-right: 10px; font-size: 14px; }
 
-#contact_form form textarea { font-family: Arial, Helvetica, sans-serif; color: #fff; width: 450px;  height: 200px; padding: 5px; background: #181818; border: 1px solid #444 }
+#contact_form textarea { font-family: Arial, Helvetica, sans-serif; color: #fff; width: 350px;  height: 80px; padding: 5px; margin-top: -15px; background: #181818;  border: 1px solid #444 }
 #contact_form .submit_btn { padding: 8px 12px; margin-right: 100px; color: #fff; background: #111; border: 1px solid #444; }
 
 #footer { clear: both; width: 980px; height: 73px; padding: 120px 20px 0; text-align: center; background: url(../images/footer.jpg) bottom center no-repeat }
@@ -293,15 +293,21 @@ div#content-video.demo > p + pre {
     color: #464544;
 }
 
-.input_field {
+.input_field,
+.input_fieldLogin{
     height: 20px;
     width: 198px;
     padding: 0 5px;
+    margin-top: -15px;
     margin-bottom: 10px;
     color: #464544;
     font-size: 12px;
     font-variant: normal;
     line-height: normal;
+}
+.input_fieldLogin
+{ 
+    margin-top: -5px;
 }
 
 .submit_btn {

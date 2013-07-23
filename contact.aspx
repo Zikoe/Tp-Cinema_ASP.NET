@@ -1,8 +1,11 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="contact.aspx.cs" Inherits="contact" %>
 
+<%@  Register Src="~/UC/WebUserControl-Header.ascx" TagPrefix="ucHeader"  TagName="UC_Header" %> <%--Ajouter pour UserControle pour Header --%>
+<%@  Register Src="~/UC/WebUserControl-footer.ascx" TagPrefix="ucFooter"  TagName="UC_Footer" %> <%--Ajouter pour UserControle pour Footer --%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
-    <head>
+    <head runat="server">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Contact et ecrire Cinema Evenements 2013</title>
         <meta name="keywords" content="Contact  Evenements-Cinema 2013, Cin&eacute;ma Montréal - contacte pour voir, ecrire CinemaMontreal - films,
@@ -49,106 +52,87 @@
 
     <div id="container">
 
-    <div id="page_header">
-        <div id="site_title">
-            <a href="#">Événements Cinema 2013</a>
-        </div> <!-- end site_title -->
+        <form id="form1" runat="server">
+                    <div>                        
+                        <ucHeader:UC_Header ID ="id1" runat="server"  nompage="contact" /><!-- Ajouer UserControls_Header -->
 
-        <div id="menu">
-            <ul>
-                <li><a href="index.aspx" >Acceuil</a></li>
-                <li><a href="annonce.aspx">Annonces</a></li>
-                <li><a href="nouveautes.aspx">Nouveautés</a></li>
-                <li><a href="gallery.aspx" >Gallerie</a></li>
-                <li><a href="contact.aspx" class="current"> Contact </a></li>
-            </ul>
-        </div> <!-- end menu -->
+                        <div id="main">
+                            <div id="content_title_box">
+                                <h1> Contact mail text </h1>
+                                <p>Validate <a href="#" rel="nofollow">ASP.NET</a> &amp;
+                                    <a href="#" rel="nofollow">User Controls, Themes, Entite  </a>&amp; <a href="#" rel="nofollow"> MySQL</a>.
+                                    Lorem ipsum dolor sit amet,consectetur adipiscing elit. Etiam non diam nec nisl ultrices pulvinar non in eros. Aenean Etiam non diam nec nisl
+                                    eu lectus vel nulla auctor congue .Etiam non diam nec
+                                </p>
+                            </div> <!-- end  project -->
+                        </div> <!-- end of main -->
 
-        <div class="cleaner"></div>
-    </div>   <!-- end    page_header -->
+                        <div id="content">
 
-    <div id="main">
-        <div id="content_title_box">
-            <h1> Contact mail text </h1>
-            <p>Validate <a href="#" rel="nofollow">ASP.NET</a> &amp;
-                <a href="#" rel="nofollow">Html et Css</a>.
-                Lorem ipsum dolor sit amet,consectetur adipiscing elit. Etiam non diam nec nisl ultrices pulvinar non in eros. Aenean Etiam non diam nec nisl
-                eu lectus vel nulla auctor congue .Etiam non diam nec
-            </p>
-        </div> <!-- end  project -->
-    </div> <!-- end of main -->
+                                <div class="content_box cb_last">
 
-    <div id="content">
+                                    <div class="col_w650  col_first_contact">
+                                        <h3>Location Addreses</h3>
+                                        255 Cremézie ést, <br />
+                                        Montreal QC<br />
+                                        Canada<br />
+                                        <br />
+                                        Tel: 514-514-0000<br />
+                                        Fax: 450-450-0000
 
-            <div class="content_box cb_last">
+                                        <div class="cleaner h40"></div>
+                                             <div class="annoncePubCare">
+                                                        <script type="text/javascript"><!--
+                                                            google_ad_client = "ca-pub-3883754367175366";
+                                                            /* Cinema Acctuel Care1 */
+                                                            google_ad_slot = "4804549539";
+                                                            google_ad_width = 250;
+                                                            google_ad_height = 250;
+                                                            //-->
+                                                        </script>
+                                                        <script type="text/javascript"
+                                                                src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                                                        </script>
+                                             </div>
+                                             <div class="cleaner"></div>
+                                         </div>
+                                    </div>
+                                    <div class="col_w300 col_last">
 
-                <div class="col_w650  col_first_contact">
-                    <h3>Location Addreses</h3>
-                    255 Cremézie ést, <br />
-                    Montreal QC<br />
-                    Canada<br />
-                    <br />
-                    Tel: 514-514-0000<br />
-                    Fax: 450-450-0000
+                                        <div id="contact_form">
+                                            <h3>Contact Form</h3>                                       
+                                            <label for="author">Nom :</label><br/>
+                                            <input type="text" id="author" name="author" class="required input_field" />
+                                            <div class="cleaner h10"></div>
+                                            <label for="author">Prenom :</label><br/>
+                                            <input type="text" id="authorPrenom" name="author" class="required input_field" />
+                                            <div class="cleaner h10"></div>
+                                            <label for="email">Email:</label><br/>
+                                            <input type="text" id="email" name="email" class="validate-email required input_field" />
+                                            <div class="cleaner h10"></div>
+                                            <label for="phone">Phone:</label><br/>
+                                            <input type="text" name="phone" id="phone" class="input_field" />
+                                            <div class="cleaner h10"></div>
+                                            <label for="text">Message:</label><br/>
+                                            <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
+                                            <div class="cleaner h10"></div>
 
-                    <div class="cleaner h40"></div>
-                     <div class="annoncePubCare">
-                                <script type="text/javascript"><!--
-                                    google_ad_client = "ca-pub-3883754367175366";
-                                    /* Cinema Acctuel Care1 */
-                                    google_ad_slot = "4804549539";
-                                    google_ad_width = 250;
-                                    google_ad_height = 250;
-                                    //-->
-                                </script>
-                                <script type="text/javascript"
-                                        src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-                                </script>
-                            </div>
-                     </div>
+                                            <input type="submit" class="submit_btn" name="submit" id="submit" value="Send" />
+                                            <input type="reset" class="submit_btn" name="reset" id="reset" value="Reset" />                                             
+                                        </div>
 
-                <div class="col_w300 col_last">
+                                    </div>
+                                </div>
 
-                    <div id="contact_form">
+                            <div class="cleaner"></div>
+                        </div>    
 
-                        <h3>Contact Form</h3>
+                     <ucFooter:UC_Footer ID ="UC_Footer1" runat="server" nomPageFooter="contact" /><!-- Ajouer UserControls_Fotter -->
+                       
+                 </div>
+            </form>
 
-                       <form id="form2" runat="server">
-                          <div>
-                                <label for="author">Nom :</label> <input type="text" id="author" name="author" class="required input_field" />
-                                <div class="cleaner h10"></div>
-                                <label for="author">Prenom :</label> <input type="text" id="authorPrenom" name="author" class="required input_field" />
-                                <div class="cleaner h10"></div>
-                                <label for="email">Email:</label> <input type="text" id="email" name="email" class="validate-email required input_field" />
-                                <div class="cleaner h10"></div>
-
-                                <label for="phone">Phone:</label> <input type="text" name="phone" id="phone" class="input_field" />
-                                <div class="cleaner h10"></div>
-
-                                <label for="text">Message:</label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
-                                <div class="cleaner h10"></div>
-
-                                <input type="submit" class="submit_btn" name="submit" id="submit" value="Send" />
-                                <input type="reset" class="submit_btn" name="reset" id="reset" value="Reset" />
-                           </div>
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-
-        <div class="cleaner"></div>
-        </div>    
-
-    <div id="footer">
-
-        <a href="index.aspx" class="current">Acceuil</a> | <a href="annonce.aspx">Annonces</a> | <a href="nouveautes.aspx">Nouveautés</a>
-        | <a href="gallery.aspx">Gallerie</a> | <a href="contact.aspx" class="current">Contact</a><br /><br />
-        Annonces Copyright © juillet 2013 <a href="#">Jihat et Edis </a> | Tehnology utilise <a href="#" target="_parent">Html , Css, JavaScript, jQuery  et  ASP.Net  </a>
-
-    </div>
-
-    </div> <!-- end container -->
+        </div> <!-- end container -->
     </div> <!-- end container page -->
     </body>
 </html>

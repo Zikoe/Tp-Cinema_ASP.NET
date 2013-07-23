@@ -1,0 +1,5 @@
+﻿body {
+}
+
+.current { color: #fff; background: url(../../images/menu_hover.png) top center no-repeat }
+.currentFooter{  text-decoration: underline; color: #9CF;    padding:0 10px 2px ;border-bottom:3px solid #9CF;   }
