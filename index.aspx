@@ -47,7 +47,7 @@
                 <div id="page_header">
                     <div id="site_title">
                         <a href="#">Événements Cinema 2013</a>
-                    </div> <!-- end site_title -->
+                    </div> <!-- end site title -->
 
                    <div id="menu">
                         <ul>
@@ -60,7 +60,7 @@
                     </div> <!-- end menu -->
 
                     <div class="cleaner"></div>
-                </div>   <!-- end    page_header -->
+                </div>   <!-- end    page_header.... -->
 
                 <div id="main">
                     <div id="project_box">
