@@ -5,16 +5,10 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class UC_WebUserControl_Login : System.Web.UI.UserControl
+public partial class UC_WebUserControl_FormMessage : System.Web.UI.UserControl
 {
-
     protected void Page_Load(object sender, EventArgs e)
     {
 
-    }
-
-    protected void creerUserBtn_Click(object sender, EventArgs e)
-    {
-        Response.Redirect("~/inscription.aspx");
     }
 }

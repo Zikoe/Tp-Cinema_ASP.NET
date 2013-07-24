@@ -52,8 +52,7 @@
                     <div>                        
                        
                         <ucHeader:UC_Header ID ="id1" runat="server" nompage="index" /><!-- Ajouer UserControls_Header et Themes_Par_Defaut -->
-                                    
-     
+                                 
                         <div id="main">
                             <div id="project_box">
 
@@ -137,7 +136,7 @@
                                         consectetur adipiscing elit. Etiam non diam nec nisl ultrices pulvinar non in eros. Aenean
                                         eu lectus vel nulla auctor congue
                                     </em></p>
-                                    <p align="justify">Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow">ASP.Net</a> &amp;
+                                    <p align="justify">Lorem Impsum  <a href="http://validator.w3.org/check?uri=referer" rel="nofollow">ASP.Net</a> &amp;
                                         <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow">Html, Css, jQuery</a>.
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non diam nec nisl ultrices pulvinar non in eros. Aenean
                                         eu lectus vel nulla auctor congue. Nam dui enim, faucibus placerat pharetra at, venenatis eget arcu. Maecenas facilisis

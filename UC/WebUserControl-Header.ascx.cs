@@ -26,6 +26,9 @@ public partial class UC_WebUserControl_Header : System.Web.UI.UserControl
                 pageIndex.CssClass = "current";
                 _titreLogo = "Événements Cinema 2013";
                 break;
+            case "inscription":                
+                _titreLogo = "Inscription pour Evenements 2013";
+                break;
             case "gallery":
                 pageGallery.CssClass = "current";
                 _titreLogo = "Gallerie Cinema 2013";

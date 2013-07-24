@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="contact.aspx.cs" Inherits="contact" %>
 
 <%@  Register Src="~/UC/WebUserControl-Header.ascx" TagPrefix="ucHeader"  TagName="UC_Header" %> <%--Ajouter pour UserControle pour Header --%>
+<%@  Register Src="~/UC/WebUserControl-FormMessage.ascx" TagPrefix="ucFormMessage"  TagName="UC_FormMessage" %> <%--Ajouter pour UserControle pour Form Message envoye --%>
 <%@  Register Src="~/UC/WebUserControl-footer.ascx" TagPrefix="ucFooter"  TagName="UC_Footer" %> <%--Ajouter pour UserControle pour Footer --%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -59,7 +60,7 @@
                         <div id="main">
                             <div id="content_title_box">
                                 <h1> Contact mail text </h1>
-                                <p>Validate <a href="#" rel="nofollow">ASP.NET</a> &amp;
+                                <p>Lorem impsum  <a href="#" rel="nofollow">ASP.NET</a> &amp;
                                     <a href="#" rel="nofollow">User Controls, Themes, Entite  </a>&amp; <a href="#" rel="nofollow"> MySQL</a>.
                                     Lorem ipsum dolor sit amet,consectetur adipiscing elit. Etiam non diam nec nisl ultrices pulvinar non in eros. Aenean Etiam non diam nec nisl
                                     eu lectus vel nulla auctor congue .Etiam non diam nec
@@ -98,29 +99,9 @@
                                          </div>
                                     </div>
                                     <div class="col_w300 col_last">
-
-                                        <div id="contact_form">
-                                            <h3>Contact Form</h3>                                       
-                                            <label for="author">Nom :</label><br/>
-                                            <input type="text" id="author" name="author" class="required input_field" />
-                                            <div class="cleaner h10"></div>
-                                            <label for="author">Prenom :</label><br/>
-                                            <input type="text" id="authorPrenom" name="author" class="required input_field" />
-                                            <div class="cleaner h10"></div>
-                                            <label for="email">Email:</label><br/>
-                                            <input type="text" id="email" name="email" class="validate-email required input_field" />
-                                            <div class="cleaner h10"></div>
-                                            <label for="phone">Phone:</label><br/>
-                                            <input type="text" name="phone" id="phone" class="input_field" />
-                                            <div class="cleaner h10"></div>
-                                            <label for="text">Message:</label><br/>
-                                            <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
-                                            <div class="cleaner h10"></div>
-
-                                            <input type="submit" class="submit_btn" name="submit" id="submit" value="Send" />
-                                            <input type="reset" class="submit_btn" name="reset" id="reset" value="Reset" />                                             
-                                        </div>
-
+                                                                                
+                                         <ucFormMessage:UC_FormMessage ID ="UC_FormMessage1" runat="server" /><!-- Ajouer UserControls_Form Message Envoyer -->
+                                    
                                     </div>
                                 </div>
 

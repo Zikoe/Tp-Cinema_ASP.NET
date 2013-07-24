@@ -57,9 +57,7 @@
                     <div>                        
                        
                         <ucHeader:UC_Header ID ="id1" runat="server" nompage="gallery"/><!-- Ajouer UserControls_Header et Themes_Par_Defaut --><!-- end    page_header -->
-                                
-                   
-
+                             
                         <div id="main">
                             <div id="content_title_box">
                                 <h1> Gallerie Cinema 2013</h1>
@@ -97,9 +95,9 @@
                                                 <a href="images/gallery/image_02_b.jpg" class="pirobox" title="Project 1"><img src="images/gallery/image_02.jpg" alt="" class="image_wrapper" /></a>
                                             </div>
                                             <div class="right">
-                                                <h5>Audi  Team</h5>
+                                                <h5>Audi  Team Drive . . .</h5>
                                                 <p>
-                                                    Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"> ASP.NET </a> &amp;
+                                                    Lorem <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"> ASP.NET </a> &amp;
                                                     <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"> Themes,User Controle ,MySQL</a>.
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget sollicitudin turpis. Praesent facilisis orci vitae ante
                                                     dignissim ultrices. Curabitur convallis molestie sem, et egestas enim ornare non.
